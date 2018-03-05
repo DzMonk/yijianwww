@@ -1,0 +1,46 @@
+#doc-banner {
+    height: 848px;
+    background: url(../../images/doctor-banner.jpg) repeat-x center top;
+    background-image: url("../../images/doctor-banner.jpg");
+    background-position-x: center;
+    background-position-y: top;
+    background-size: initial;
+    background-repeat-x: repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}
+
+#doc-banner .android-down {
+    top: 550px;
+}
+
+#doc-banner .iso-down {
+    top: 457px;
+}
+
+#doc-banner .iso-down, #doc-banner .android-down {
+    position: absolute;
+    width: 330px;
+    height: 60px;
+    line-height: 60px;
+    border: 2px solid #41b2a6;
+    border-radius: 5px;
+    font-size: 28px;
+    color: #41b2a6;
+    z-index: 999;
+    padding-left: 89px;
+    text-align: left;
+}
+
+#app-link {
+    width: 1000px;
+    text-align: auto;
+}
+
+#app-link {
+    margin-left: auto;
+    margin-right: auto;
+}
